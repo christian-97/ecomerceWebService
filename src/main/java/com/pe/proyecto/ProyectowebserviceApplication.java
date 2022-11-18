@@ -2,7 +2,7 @@ package com.pe.proyecto;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+//un comnetario
 @SpringBootApplication
 public class ProyectowebserviceApplication {
 
