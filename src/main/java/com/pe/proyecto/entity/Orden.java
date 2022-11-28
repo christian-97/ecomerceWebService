@@ -48,4 +48,7 @@ public class Orden implements Serializable{
     
     @Column(name = "total")
     private double total;
+    
+    @Column(name = "usuario_id")
+    private double usuario_id;
 }

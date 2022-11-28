@@ -48,5 +48,11 @@ public class DetalleOrden implements Serializable{
     
     @Column(name = "total")
     private double total;
+    
+    @Column(name = "orden_id")
+    private int orden_id;
+    
+    @Column(name = "producto_id")
+    private int producto_id;
 
 }

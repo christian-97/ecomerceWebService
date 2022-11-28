@@ -54,6 +54,12 @@ public class Producto implements Serializable{
     
     @Column(name = "estado")
     private boolean estado;
+    
+    @Column(name = "usuario_id")
+    private int usuario_id;
+    
+    @Column(name = "categoria_id")
+    private int categoria_id;
    
     /*
     @ManyToOne

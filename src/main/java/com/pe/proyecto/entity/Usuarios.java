@@ -58,4 +58,7 @@ public class Usuarios implements Serializable{
         
         @Column(name = "estado")
 	private boolean estado;
+        
+        @Column(name = "rol_id")
+	private int rol_id;
 }
